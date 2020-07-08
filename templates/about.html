@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<h3>Hakkımda</h3>
+<hr>
+<div class="card mb-3">
+  <img class="card-img-top" src="{{ url_for('static', filename='img/about.jpg') }}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title text-center">Alpay Güroğlu Nam-ı Değer "Asimolpiq"</h5>
+    <p class="card-text text-center">30 Eylül 1999 Doğumlu,<br>Klasik Türk Yazılımcı.</p>
+    <p class="card-text text-right"><small class="text-muted">son güncelleme 10 Haziran 2020 Çarşamba</small></p>
+  </div>
+</div>
+<hr>
+{% endblock  %}
